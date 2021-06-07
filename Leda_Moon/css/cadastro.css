@@ -1,0 +1,15 @@
+main > div{width:100%;float:left;padding:45px 0 30px;}
+	main > div {margin:0 auto;width:55.2rem;text-align:center;}
+		main >  div > label{background:#999;width:1&rem;padding:1.&rem;color:#fff;font-weight:bolder;font-size:1.4rem;cursor:pointer;}
+	main > div > form{float:left;width:100%;margin-top:3rem;}
+						.msg-cad{color:#fff;background:#ff3131;border:none;float:left;width:100%;padding:5px 0;font-size:1.4rem;font-weight:bolder;display:none;}
+	main >  div > form > p{text-align:left;float:left;width:calc(100%);font-size:1.5rem;font-weight:bolder;margin:2rem 0 1rem;padding-bottom:.2rem;border-bottom-style:groove;}	
+		main >  div > form > label{float:left;margin:0 .5rem .5rem 0;}
+		main >  div > form > label :last-child{margin-bottom:0;}
+			#nome{width:40.5rem;}
+			#genero{width:12.5rem;}
+			#Nascimento_cli{width:10rem;}
+			#CPF_cli{width:14rem;}
+			#ddd{width:3.1rem;}
+			#Telefone_cli{width:9.8rem;}
+			#Celular_cli{width:9.8rem;}

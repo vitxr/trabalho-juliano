@@ -1,0 +1,70 @@
+.common h1,
+.common h2,
+.common h3,
+.common h4,
+.common h5{padding:20px 0 10px;clear:both}
+.common .hidden{display:none}
+.common a{color:#333;text-decoration:underline}
+.common .main-title{font-size:26px}
+.common .title{display:block;background-color:#555;color:#fff;padding:5px;text-align:center;font-size:18px}
+.common .common-box,
+.common table.table,
+.common table.table tr{background-color:#fff}.common 
+.common-box{border:1px solid #eee;box-sizing:border-box;padding:10px;margin:10px 0}
+.common .common-box .box-title{font-size:16px;font-weight:700;display:block;padding:10px 0;margin-bottom:10px}
+.common [type=email],.common [type=password],.common [type=text],.common select,
+.common textarea{border:1px solid #ccc;border-radius:3px;padding:5px;width:100%;background:#fff}
+.common .error{border-color:#900!important}.common 
+.error-message{font-size:10px;text-align:right;color:#900;display:block}
+.common .clear{display:block;clear:both}.common
+ .minimal-append{font-size:80%;margin:10px 0}.common
+ .statusBlockList{display:block;padding:0;margin:10px 0}.common 
+ .statusBlockList .statusBlock{display:inline-block;background-color:#fff;color:#444;padding:10px;border:2px dashed #ccc}
+ .common .statusBlockList .statusBlock span{display:block;text-align:center}
+ .common table.table{width:100%;margin:10px auto;color:#444}.common table.table tr td,
+ .common table.table tr th{border-collapse:collapse;border-top:1px solid #ddd;border-bottom:1px solid #ddd;padding:10px;background:#fff}
+ .common table.table tr th{font-weight:700;background:#f5f5f5;text-align:center}.common table.table tr td.center{text-align:center}
+ .common table.table tr td.right{text-align:right}.common .form-cell{display:block;margin-bottom:10px}.common
+ .form-cell label{display:block;box-sizing:border-box;font-size:13px}.common .form-cell.checkbox label{display:block;padding:10px}
+ .common .horizontal-option{margin-bottom:10px;line-height:200%}.common .form-cell input[type=email],.common .form-cell input[type=password],
+ .common .form-cell input[type=text],.common .form-cell select{display:block;width:100%;padding:10px;font-size:12px;color:#555;
+ border:1px solid #ddd;border-radius:0;box-sizing:border-box}.common input:-webkit-autofill,.common select:-webkit-autofill,
+ .common textarea:-webkit-autofill{background:#fff!important}.common .form-cell select{-webkit-appearance:none;background-color:#fff}
+ .common .form-cell .input-container{display:block;width:100%;box-sizing:border-box}.common .form-cell
+ .input-container:after{content:'';display:block;clear:both}.common .form-cell .ddd{display:inline-block;float:left;margin-right:5px;width:60px!important}
+ .common .form-cell .tel{display:inline-block;float:left;width:calc(100% - 65px)!important}.common 
+ .button{display:block;clear:both;padding:10px;background-color:#fff;color:#222;text-transform:uppercase;font-weight:700;width:100%;cursor:pointer;
+ text-decoration:none;border:1px solid #e5e5e5}.common .admin-navigation{margin:10px 0 20px}.common .admin-navigation h2{padding:20px 0;text-align:center}
+ .common .admin-navigation p{padding:10px 0;text-align:center}.common .admin-navigation ul{padding:0;margin:0}.common 
+ .admin-navigation ul li{margin:0;padding:0;display:inline}.common .admin-navigation
+ ul li a{display:block;color:#fff;background-color:#444;margin:1px;padding:10px;text-align:center;text-transform:uppercase;text-decoration:none}
+ .common .admin-navigation ul li a:hover{background-color:#333}.common .admin-navigation ul li a
+ .active{background-color:#ddd;color:#333;font-weight:700}.common .address-list{margin-top:10px}.common 
+ .address-list .address-item{display:block;box-sizing:border-box;border:1px solid #ccc;margin:10px 0;padding:10px}.common 
+ .address-list .address-item .name{font-size:110%;display:block;padding:8px;background-color:#e5e5e5;color:#444;margin:0 0 20px}.common 
+ .address-list .address-item p.add-info{font-size:90%;overflow:hidden;white-space:nowrap}.common 
+ .address-list .address-item a{display:block;padding:10px 0;cursor:pointer}.common .address-button{width:500px;float:right;clear:both}.common
+ .address-button:after{content:'';display:block;clear:both}.common .address-button .button{display:inline-block;width:200px;text-align:center;
+ clear:none;margin-left:4px}.alert .msg,.alert .txt,.common .alert .tx,.common .alert.alert-info .lbl{display:block}.common
+ .alert{margin:20px 0;padding:10px;position:relative;background:#ccc;color:#fff}.common .alert:after{content:" ";display:block;clear:both}.common 
+ .alert .lst{overflow:hidden}.common .alert .it{padding:3px 0}.common .alert-success{background:#d9f2d9;border:1px solid #6c6;color:#393}.common 
+ .alert-error{background:#f2d9d9;border:1px solid #c66;color:#933}.common .alert-attention{background:#f2f2d9;border:1px solid #cc6;color:#993}.common 
+ .alert.alert-info{margin:10px 0;border-radius:2px;background:#b9ddf1;padding:10px;color:#2583b9;font-size:14px;border:1px solid}.common 
+ .alert.alert-info .lnk{color:#2583b9;text-decoration:underline}.common iframe{min-height:600px;width:100%}@media only screen and (min-width:48em){
+.common .common-box.login,.common .common-box.signin{float:left;display:inline-block;width:calc(50% - 4px);margin-right:8px;box-sizing:border-box}
+.common .common-box.signin{margin-right:0}.common .common-box.half{float:left;display:inline-block;width:50%}.common 
+.common-box.half:first-child{width:calc(50% - 10px);margin-right:10px}.common .form-cell:after{content:'';display:block;clear:both}.common 
+.form-cell label{display:inline-block;width:40%;text-align:right;padding:10px 10px 0 0;float:left}.common 
+.form-cell.checkbox label{display:block;width:100%;float:none;text-align:left;padding-left:40px}.common
+.form-cell .input-container,.common .form-cell input[type=email],.common .form-cell input[type=password],.common
+.form-cell input[type=text],.common .form-cell select{display:inline-block;width:60%;float:left}.common
+.button{display:inline-block;float:right;padding:10px 30px;width:auto}.common .admin-navigation h2,.common
+.admin-navigation p{text-align:left}.common .admin-navigation ul li a{display:inline-block;float:left;width:auto;padding:10px 20px}.common 
+.admin-navigation ul:after{content:'';display:block;clear:both}.common .address-list
+.address-item{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;display:inline-block;width:31%;
+ float:left;margin:10px 5px;min-height:200px}}@media print{.common .title{font-size:14px}.common .admin-navigation{display:none}}
+.adm-lb-store{border-width:1px 1px 1px 10px;border-style:solid;border-radius:2px;padding:3px 20px;
+font-size:11px;text-transform:uppercase;display:inline-block;width:140px;text-align:center;margin-left:10px}
+.adm-lb-store-ccxp{background:#f5ecf3;border-color:#c151b5}.adm-lb-store-harryPotter{background:#d1cbdc;border-color:#7d7d7d}
+.adm-lb-store-omeleteBox{background:#fff9d4;border-color:#f4ca1a}.adm-lb-store-mundoGeek{background:#f9e6e6;border-color:#bd0101}
+.order-header-details{padding-left:10px;margin-bottom:20px;margin-top:10px;font-size:18px;text-align:center}

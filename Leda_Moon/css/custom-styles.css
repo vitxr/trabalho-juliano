@@ -1,0 +1,90 @@
+/************************************************
+	Font family
+ ************************************************/
+ @font-face {
+    font-family: 'source_sans_proregular';
+    src: url('../fonts/sourcesanspro-regular-webfont.eot');
+    src: url('../fonts/sourcesanspro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sourcesanspro-regular-webfont.woff') format('woff'),
+         url('../fonts/sourcesanspro-regular-webfont.ttf') format('truetype'),
+         url('../fonts/sourcesanspro-regular-webfont.svg#source_sans_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'source_sans_problack';
+    src: url('../fonts/sourcesanspro-black-webfont.eot');
+    src: url('../fonts/sourcesanspro-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sourcesanspro-black-webfont.woff') format('woff'),
+         url('../fonts/sourcesanspro-black-webfont.ttf') format('truetype'),
+         url('../fonts/sourcesanspro-black-webfont.svg#source_sans_problack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'source_sans_probold';
+    src: url('../fonts/sourcesanspro-bold-webfont.eot');
+    src: url('../fonts/sourcesanspro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sourcesanspro-bold-webfont.woff') format('woff'),
+         url('../fonts/sourcesanspro-bold-webfont.ttf') format('truetype'),
+         url('../fonts/sourcesanspro-bold-webfont.svg#source_sans_probold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+.banner{}
+.banner .carousel-caption{top: 25%;}
+.banner .carousel-caption h1{margin: 0; font-size: 60px;font-family: 'source_sans_probold'; color: #fff; letter-spacing: 5px; text-transform: uppercase; padding-bottom: 20px;}
+.banner .carousel-caption h2{font-size: 28px; line-height: 36px;font-family: 'source_sans_prolight'; color: #fff; letter-spacing: 3px; padding-bottom: 20px;}
+.banner .carousel-caption .btn{color: #fff; font-size: 26px; line-height: 28px; font-family: 'source_sans_problack'; text-transform: uppercase; padding: 10px 25px; background: #34b091; border-radius: 40px; box-shadow: 0 3px 2px 0px #4a4c54; }
+.banner .carousel-caption .btn:hover{color: #34b091; background: #fff; transition:all 1s;}
+.banner .carousel-control {top: 45%; width: 40px; height: 40px; line-height: 42px; font-size: 30px; background: #34b091; 
+                            border-radius: 50px; bottom: 42%; opacity: 0.8;}
+.banner .carousel-control:hover{background: #3b3e4a;}                            
+.banner .carousel-control.right{right: 10%;}
+.banner .carousel-control.left{left: 10%;}
+
+    .banner .carousel-caption h1{ opacity: 0;}
+    .banner .carousel-caption h2{ opacity: 0;}
+    .banner .carousel-caption .btn{opacity: 0;}
+    .banner .carousel-inner:hover img{-webkit-filter: blur(5px); transition:all 5s; }
+    .banner .carousel-inner:hover h1{ transition:all 1s; opacity: 0.9 !important;  }
+    .banner .carousel-inner:hover h2{ transition:all 1s; opacity: 0.9 !important;  }
+    .banner .carousel-inner:hover .btn{ transition:all 1s; opacity: 0.9 !important;  }
+
+/************************************************
+	generic styles starts here
+ ************************************************/
+.featured-block{padding:10px 0; overflow: hidden;}
+.featured-block .block{}
+.featured-block .block .thumbnail{box-shadow: 0 3px 3px 0 #e0e0e0;}
+.featured-block .caption{padding: 25px 15px;}
+.featured-block .caption h1{font-size: 18px; line-height: 24px;color: #F34949; text-transform: uppercase;font-family: 'source_sans_probold';  padding-bottom: 10px; letter-spacing: 1px;}
+.featured-block .caption p{font-size: 14px; line-height: 24px; color: #9b9796;font-family: 'source_sans_proregular';}
+.featured-block .caption .btn{color: white; background: #F34949; font-size: 15px; font-family: 'source_sans_problack'; border-radius: 30px; text-transform: uppercase; line-height: 13px;}
+.featured-block .caption .btn:hover{color: white; background: #454855; transition:all 1s;}
+
+.addCarrinho{
+	background: #c00;
+	height; 40px;
+	line-height: 40px;
+	color: #fff;
+	padding: 20px;
+}
+.addCarrinho:hover{
+	color:#fff;
+	text-decoration:none;
+	background:#cc0055;
+}
+

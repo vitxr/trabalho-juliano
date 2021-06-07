@@ -1,0 +1,13 @@
+main  > div{float:left;width:100%;padding:30px 0;}
+	main > div > div {width:80%;margin:0 auto;}
+		main > div > div > form{width:45%;float:left;height:15rem;background:#eee;padding:3rem 1rem;text-align:center;}
+		main > div > div > form *{float:left;margin-bottom:.5rem}
+			main > div > div > form input {width:calc(100% -1.2rem); outline:none;}
+			main > div > div > form button{background:#2b2b2b !important;width:100%;color:#fff !important;}
+			
+		main > div > div > form:nth-of-type(2) {float:right;}	
+			main > div > div > form:nth-of-type(2) a{}
+			main > div > div > form:nth-of-type(2) a + p{color:#f00;font-size:1.2rem;font-weight:bolder;float:rigth;}
+		
+/* CLASSES GLOBAIS */
+.title{font-size:2.1rem;font-weight:bolder;margin-bottom:5rem;width:100%;float:left;}

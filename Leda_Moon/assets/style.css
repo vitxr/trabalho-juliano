@@ -1,0 +1,16 @@
+
+.form-horizontal.qtyFrm .control-label{text-align: left;}
+.form-horizontal.qtyFrm .control-label span{font-size:18px}
+.clr{clear:both;}
+
+/* Tables
+--------------------------------------------------------------------------------------------------------------- */
+table, th, td{border:1px solid; border-collapse:collapse; vertical-align:top;}
+table, th{table-layout:auto;}
+table{width:100%; margin-bottom:15px;}
+th, td{padding:5px 8px;}
+td{border-width:0 1px;}
+#productDetail {margin-bottom:0}
+
+.shopBtn {min-height: 34px;font-size: 14px;font-weight: bold;line-height: 34px;text-align: center;color: #fff;border-radius: 2px;background: #F34949;display:inline-block;padding:0 12px;border:0;}
+
