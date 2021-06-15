@@ -10,8 +10,8 @@
 <body>
 <?php
 	$buscar=$_POST['buscar'];
-	$sql = mysql_query ("SELECT * FROM produtos WHERE Nome_pro LIKE '%".$buscar."%'");
-	$row = mysql_num_rows($sql);
+	$sql = mysqli_query ("SELECT * FROM produtos WHERE Nome_pro LIKE '%".$buscar."%'");
+	$row = mysqli_num_rows($sql);
 	if($row>0){
 		while($linha = mysql_fetch_array($sql)){
 			

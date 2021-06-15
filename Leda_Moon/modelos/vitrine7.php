@@ -12,9 +12,9 @@
   	  <?php
 						include '../conexao.php';
 	
-			$busca = mysql_query("SELECT * FROM produtos WHERE Genero_pro LIKE '%luminaria'");
+			$busca = mysqli_query("SELECT * FROM produtos WHERE Genero_pro LIKE '%luminaria'");
 	
-			while($dado = mysql_fetch_array($busca))
+			while($dado = mysqli_fetch_array($busca))
 			{
 				
 				$Nome_pro = $dado['Nome_pro'];

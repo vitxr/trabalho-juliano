@@ -1,5 +1,6 @@
 <!-- Aqui é o ph + chama dados etc.-->
 <?php
-@mysql_connect("localhost", "root", "") or die (mysql_error ());
-mysql_select_db("tcc") or die(mysql_error());
+    
+mysqli_connect("localhost", "root", "") or die (mysqli_error ());
+mysqli_select_db("tcc") or die(mysqli_error());
 ?> 

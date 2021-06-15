@@ -1,5 +1,5 @@
 <?php
-include "conexao.php"; // Nome do arquivo q faz a conexao com DB (No seu caso pode estar diferente);
+include ("conexao.php"); // Nome do arquivo q faz a conexao com DB (No seu caso pode estar diferente);
 require_once("seguranca.php");
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   $Email_cli = (isset($_POST['Email_cli'])) ? $_POST['Email_cli'] : ''; // (Email_cli é como esta no MEU BANCO)

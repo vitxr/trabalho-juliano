@@ -1,7 +1,9 @@
 
 <!DOCTYPE html>
 <html>
-<?php include 'head.php' ?>
+<?php include ('head.php');
+  include ('conexao.php');
+?>
 
   <body>
   <!-- Controls -->
@@ -13,9 +15,9 @@
   	  <?php
 						include '../conexao.php';
 	
-			$busca = mysql_query("SELECT * FROM produtos WHERE Genero_pro LIKE '%chaveiro'");
+			$busca = mysqli_query("SELECT * FROM produtos WHERE Genero_pro LIKE '%chaveiro'");
 	
-			while($dado = mysql_fetch_array($busca))
+			while($dado = mysqli_fetch_array($busca))
 			{
 				
 				$Nome_pro = $dado['Nome_pro'];

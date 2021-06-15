@@ -1,6 +1,8 @@
 <?php session_start(); ?>
 <!DOCTYPE html>
-<?php include 'confere.php'?>
+<?php include ('confere.php');
+	include ('conexao.php');
+?>
 <html >
 <head>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,300">
