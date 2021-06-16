@@ -27,40 +27,30 @@
         <ul>
             <li><a href="/leda_moon/index.php?tipo=camiseta">Camiseta</a></li>
             <li><a href="/leda_moon/index.php?tipo=shorts">Shorts</a></li>
-			<li><a href="/leda_moon/modelos/produtos/bottons.php">Bottons</a></li>
-			<li><a href="/leda_moon/modelos/produtos/pelucia.php">Pelucias</a></li>
-			<li><a href="/leda_moon/modelos/produtos/mochilas.php">Mochilas</a></li>
-			
+			<li><a href="/leda_moon/index.php?tipo=moletom">Moletom</a></li>
         </ul>
     </li>
     <li><a href="">Acessórios</a>
         <ul>
-            <li><a href="/leda_moon/modelos/chaveiros.php">Chaveiros</a></li>
-            <li><a href="/leda_moon/modelos/produtos/colar.php">Colares</a></li>
-			<li><a href="/leda_moon/modelos/produtos/bottons.php">Bottons</a></li>
-			<li><a href="/leda_moon/modelos/produtos/pelucia.php">Pelucias</a></li>
-			<li><a href="/leda_moon/modelos/produtos/mochilas.php">Mochilas</a></li>
-			
+            <li><a href="/leda_moon/index.php?tipo=chaveiro">Chaveiros</a></li>
+            <li><a href="/leda_moon/index.php?tipo=lixeira">Lixeira </a></li>
+			<li><a href="/leda_moon/index.php?tipo=luminaria">Luminária</a></li>
+			<li><a href="/leda_moon/index.php?tipo=squeeze">Squeeze</a></li>
         </ul>
     </li>
     <li><a href="">Geek</a>
         <ul>
-            <li><a href="/leda_moon/modelos/chaveiros.php">Chaveiros</a></li>
-            <li><a href="/leda_moon/modelos/produtos/colar.php">Colares</a></li>
-			<li><a href="/leda_moon/modelos/produtos/bottons.php">Bottons</a></li>
-			<li><a href="/leda_moon/modelos/produtos/pelucia.php">Pelucias</a></li>
-			<li><a href="/leda_moon/modelos/produtos/mochilas.php">Mochilas</a></li>
-			
+            <li><a href="/leda_moon/index.php?tipo=funko_pop">Funko Pop</a></li>
+            <li><a href="/leda_moon/index.php?tipo=hq">HQs</a></li>
+			<li><a href="/leda_moon/index.php?tipo=livro">Livros</a></li>
         </ul>
     </li>
     <li><a href="">Cozinha</a>
         <ul>
-            <li><a href="/leda_moon/modelos/chaveiros.php">Chaveiros</a></li>
-            <li><a href="/leda_moon/modelos/produtos/colar.php">Colares</a></li>
-			<li><a href="/leda_moon/modelos/produtos/bottons.php">Bottons</a></li>
-			<li><a href="/leda_moon/modelos/produtos/pelucia.php">Pelucias</a></li>
-			<li><a href="/leda_moon/modelos/produtos/mochilas.php">Mochilas</a></li>
-			
+            <li><a href="/leda_moon/index.php?tipo=hashi">Hashis</a></li>
+            <li><a href="/leda_moon/index.php?tipo=caneca">Canecas</a></li>
+			<li><a href="/leda_moon/index.php?tipo=porta_guardanapo">Guardanapos</a></li>
+			<li><a href="/leda_moon/index.php?tipo=pratos">Pratos</a></li>
         </ul>
     </li>
 	 
